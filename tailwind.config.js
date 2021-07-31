@@ -18,7 +18,11 @@ module.exports = {
       barlow: ['Barlow', 'sans-serif'],
       fraunces: ['Fraunces', 'serif'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        'desktop-header': "url('/images/desktop/image-header.jpg')",
+      }),
+    },
   },
   variants: {
     extend: {},
