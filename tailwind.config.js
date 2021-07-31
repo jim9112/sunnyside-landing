@@ -22,6 +22,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         'desktop-header': "url('/images/desktop/image-header.jpg')",
         'mobile-header': "url('/images/mobile/image-header.jpg')",
+        'mobile-egg': "url('/images/mobile/image-transform.jpg')",
+        'desktop-egg': "url('/images/desktop/image-transform.jpg')",
       }),
     },
   },
