@@ -21,6 +21,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         'desktop-header': "url('/images/desktop/image-header.jpg')",
+        'mobile-header': "url('/images/mobile/image-header.jpg')",
       }),
     },
   },
