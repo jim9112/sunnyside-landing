@@ -24,6 +24,8 @@ module.exports = {
         'mobile-header': "url('/images/mobile/image-header.jpg')",
         'mobile-egg': "url('/images/mobile/image-transform.jpg')",
         'desktop-egg': "url('/images/desktop/image-transform.jpg')",
+        'mobile-glass': "url('/images/mobile/image-stand-out.jpg')",
+        'desktop-glass': "url('/images/desktop/image-stand-out.jpg')",
       }),
     },
   },
