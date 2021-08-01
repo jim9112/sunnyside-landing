@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ImageGallery from '../components/ImageGallery';
 import MainContent from '../components/MainContent';
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Testimonials />
       <ImageGallery />
+      <Footer />
     </div>
   );
 }
