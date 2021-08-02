@@ -4,9 +4,11 @@ import thomas from '../public/images/image-thomas.jpg';
 import jennie from '../public/images/image-jennie.jpg';
 const Testimonials = () => {
   return (
-    <div className="px-6 py-16 text-center">
-      <h1 className="">CLIENT TESTIMONIALS</h1>
-      <div>
+    <div className="px-6 xl:px-36 py-16 text-center">
+      <h1 className="text-neutral-greyish-blue md:text-xl">
+        CLIENT TESTIMONIALS
+      </h1>
+      <div className="md:grid md:grid-cols-3 md:gap-7">
         {/* single client testimonial */}
         <div className="grid grid-flow-row place-items-center gap-8 pt-16">
           <div className="rounded-full overflow-hidden w-20 h-20 ">

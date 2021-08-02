@@ -5,7 +5,7 @@ import orange from '../public/images/desktop/image-gallery-orange.jpg';
 import sugarCubes from '../public/images/desktop/image-gallery-sugarcubes.jpg';
 const ImageGallery = () => {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-2 md:grid-cols-4">
       <div className="relative">
         <Image src={milkBottles} alt="milk bottles" layout="responsive" />
       </div>
