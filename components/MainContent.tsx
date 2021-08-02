@@ -4,7 +4,7 @@ const MainContent = () => {
       {/* egg image (transform) */}
       <div className="md:order-2 bg-mobile-egg md:bg-desktop-egg md:h-full h-80 w-full bg-no-repeat bg-cover bg-center"></div>
       {/* transform description */}
-      <div className="md:order-1 px-6 py-16 md:py-36 lg:px-40 text-center">
+      <div className="md:order-1 px-6 py-16 lg:px-40 md:py-36 text-center">
         <h1 className="font-fraunces text-3xl mb-6">Transform your brand</h1>
         <p className="text-neutral-dark-greyish-blue font-barlow text-lg mb-8">
           We are a full-service creative agency specializing in helping brands
