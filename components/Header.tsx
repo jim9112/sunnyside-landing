@@ -2,17 +2,31 @@ import Image from 'next/image';
 import logo from '../public/images/logo.svg';
 import arrow from '../public/images/icon-arrow-down.svg';
 import hamburger from '../public/images/icon-hamburger.svg';
+import MobileMenuModal from './MobileMenuModal';
+import { useState } from 'react';
 
 const Header = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    modalOpen ? setModalOpen(false) : setModalOpen(true);
+  };
+
   return (
     <header className="w-full bg-no-repeat bg-cover bg-center bg-mobile-header md:bg-desktop-header pt-8 px-10">
+      {modalOpen && <MobileMenuModal toggleModal={toggleModal} />}
       <div className="grid grid-flow-col">
         <div>
           <Image src={logo} alt="logo" />
         </div>
         <nav className="">
           <div className="grid grid-flow-col justify-end md:hidden">
-            <Image src={hamburger} alt="hamburger menu" />
+            <Image
+              className="cursor-pointer"
+              src={hamburger}
+              alt="hamburger menu"
+              onClick={toggleModal}
+            />
           </div>
           <ul className="font-barlow text-lg hidden md:grid grid-flow-col justify-end gap-11 text-neutral-white">
             <li>About</li>
