@@ -13,21 +13,21 @@ const Footer = () => {
       </div>
 
       <ul className="grid grid-flow-col justify-center gap-14 font-barlow text-lg text-primary-dark-cyan mb-20">
-        <li>About</li>
-        <li>Services</li>
-        <li>Projects</li>
+        <li className="cursor-pointer  hover:text-neutral-white">About</li>
+        <li className="cursor-pointer hover:text-neutral-white">Services</li>
+        <li className="cursor-pointer hover:text-neutral-white">Projects</li>
       </ul>
       <ul className="grid grid-flow-col justify-center gap-7">
-        <li>
+        <li className="cursor-pointer">
           <Image src={facebookIcon} alt="Facebook Icon" />
         </li>
-        <li>
+        <li className="cursor-pointer">
           <Image src={instagramIcon} alt="Instagram Icon" />
         </li>
-        <li>
+        <li className="cursor-pointer">
           <Image src={twitterIcon} alt="Twitter Icon" />
         </li>
-        <li>
+        <li className="cursor-pointer">
           <Image src={pinterestIcon} alt="Pinterest Icon" />
         </li>
       </ul>

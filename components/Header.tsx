@@ -16,7 +16,7 @@ const Header = () => {
     <header className="w-full bg-no-repeat bg-cover bg-center bg-mobile-header md:bg-desktop-header pt-8 px-10">
       {modalOpen && <MobileMenuModal toggleModal={toggleModal} />}
       <div className="grid grid-flow-col">
-        <div>
+        <div className="py-4">
           <Image src={logo} alt="logo" />
         </div>
         <nav className="">
@@ -28,11 +28,19 @@ const Header = () => {
               onClick={toggleModal}
             />
           </div>
-          <ul className="font-barlow text-lg hidden md:grid grid-flow-col justify-end gap-11 text-neutral-white">
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Contact</li>
+          <ul className="font-barlow text-lg hidden md:grid grid-flow-col justify-end  text-neutral-white">
+            <li className="py-4 px-7 rounded-full cursor-pointer hover:bg-neutral-white hover:bg-opacity-40">
+              About
+            </li>
+            <li className="py-4 px-7 rounded-full cursor-pointer hover:bg-neutral-white hover:bg-opacity-40">
+              Services
+            </li>
+            <li className="py-4 px-7 rounded-full cursor-pointer hover:bg-neutral-white hover:bg-opacity-40">
+              Projects
+            </li>
+            <li className="py-4 px-7 rounded-full cursor-pointer hover:bg-neutral-white hover:bg-opacity-40">
+              Contact
+            </li>
           </ul>
         </nav>
       </div>
