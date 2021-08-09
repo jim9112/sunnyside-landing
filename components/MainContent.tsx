@@ -11,9 +11,17 @@ const MainContent = () => {
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
-        <a className="font-fraunces text-neutral-very-dark-blue" href="">
-          LEARN MORE
-        </a>
+        <div className="w-max m-auto group">
+          <a
+            className="relative z-10 px-2 font-fraunces text-neutral-very-dark-blue"
+            href="">
+            LEARN MORE
+          </a>
+          {/* color underline */}
+          <div className="relative cursor-pointer hover:">
+            <span className="absolute z-0 -top-3 block group-hover:bg-opacity-100 bg-primary-yellow rounded-full bg-opacity-20 w-full h-3"></span>
+          </div>
+        </div>
       </div>
       {/* stand out image */}
       <div className="md:order-3 bg-mobile-glass md:bg-desktop-glass md:h-full h-80 w-full bg-no-repeat bg-cover bg-center"></div>
@@ -27,9 +35,17 @@ const MainContent = () => {
           photographers, videographers, and copywriters, we’ll build and extend
           your brand in digital places.
         </p>
-        <a className="font-fraunces text-neutral-very-dark-blue" href="">
-          LEARN MORE
-        </a>
+        <div className="w-max m-auto group">
+          <a
+            className="relative z-10 px-2 font-fraunces text-neutral-very-dark-blue"
+            href="">
+            LEARN MORE
+          </a>
+          {/* color underline */}
+          <div className="relative cursor-pointer hover:">
+            <span className="absolute z-0 -top-3 block group-hover:bg-opacity-100 bg-primary-soft-red rounded-full bg-opacity-20 w-full h-3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );
