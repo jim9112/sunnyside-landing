@@ -1,9 +1,5 @@
 import Image from 'next/image';
 import logo from '../public/images/logo-dark.svg';
-import facebookIcon from '../public/images/icon-facebook.svg';
-import instagramIcon from '../public/images/icon-instagram.svg';
-import pinterestIcon from '../public/images/icon-pinterest.svg';
-import twitterIcon from '../public/images/icon-twitter.svg';
 
 const Footer = () => {
   return (
